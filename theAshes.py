@@ -6,7 +6,7 @@ from PIL import Image
 import plotly.express as px
 import Helper
 
-ashes = pd.read_excel("D:\\III YEAR ASSIGNMENTS\\Kaggle Datasets\\Random Datasets\\Ashes.xlsx", sheet_name=None)
+ashes = pd.read_excel("D:\\Kaggle Datasets\\Random Datasets\\Ashes.xlsx", sheet_name=None)
 results = ashes.get('Results')
 batters = ashes.get('Most Runs')
 bowlers = ashes.get('Most Wickets')
